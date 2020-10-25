@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist dakwahkodingdigital/yii2-phpseclib "*"
+php composer.phar require --prefer-dist dakwahkodingdigital/yii2-phpseclib "dev-main"
 ```
 
 or add
 
 ```
-"dakwahkodingdigital/yii2-phpseclib": "*"
+"dakwahkodingdigital/yii2-phpseclib": "dev-main"
 ```
 
 to the require section of your `composer.json` file.
