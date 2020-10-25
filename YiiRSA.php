@@ -11,6 +11,7 @@ class YiiRSA extends \Crypt_RSA {
 
     public function __construct() {
         parent::__construct();
+        require_once (dirname(__FILE__) . '/phpseclib/Math/BigInteger.php');
     }
 
 }
